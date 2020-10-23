@@ -13,8 +13,6 @@ services:
 #      - data:/var/lib/mysql
       - /home/jonilson/docker/volumes/mysql_5.7.32:/var/lib/mysql
     environment:
-      MYSQL_USER: 'user'
-      MYSQL_PASSWORD: 'user'
       MYSQL_ROOT_PASSWORD: 'root'
       MYSQL_DATABASE: 'default'
     networks:
